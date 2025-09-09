@@ -9,7 +9,7 @@ using WeifenLuo.WinFormsUI.ThemeVS2012;
 namespace WeifenLuo.WinFormsUI.ThemeVS2013
 {
     [ToolboxItem(false)]
-    internal class VS2013DockPaneStrip : DockPaneStripBase
+    public class VS2013DockPaneStrip : DockPaneStripBase
     {
         private class TabVS2013 : Tab
         {
